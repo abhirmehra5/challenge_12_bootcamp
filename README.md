@@ -13,7 +13,7 @@
 ## Results
 
 * Machine Learning Model 1:
-  * The first model has an Accuracy score of 0.9918. , Precision scores of 0.99 and .91 for 0 and 1 respectively, and Recall scores of 1 and 0.85 for 0 and 1 respectively.
+  * The first model has an Accuracy score of 0.9918. , Precision scores of 1 and .85 for 0 and 1 respectively, and Recall scores of 0.99 and 0.91 for 0 and 1 respectively.
 
 * Machine Learning Model 2:
   * The first model has an Accuracy score of 0.9936. , Precision scores of 1 and 0.84 for 0 and 1 respectively, and Recall scores of 0.99 and 0.99 for 0 and 1 respectively.
@@ -21,6 +21,6 @@
 
 ## Summary
 
-* The first model seems to perform better for the problem we are trying to solve. 
-*  This is because, Model 1 predicts the 1s more acuurately than Model 2. It is more important to be accurate about High-Risk (1) loans than Healthy loans (0) to ensure the firm has a better risk profile.
+* The second model seems to perform better for the problem we are trying to solve. 
+* This is because, both models predict the 1 (High-Risk Loan) to roughly the same degree of accuraccy. However, Model 1 has a recall score of 0.91 for the 1 whereas Model 2 has a recall score of 0.99 for 1. Thus, Model 2 is better for the problem we are trying to solve.
 
